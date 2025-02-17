@@ -1,10 +1,10 @@
 @echo off
-X Project
+title X Project
 
-echo                                                         [1] Aplicar alterações
+echo                                                         [1] Aplicar alteracoes
 echo. 
 echo. 
-echo                                                         [2] Reverter alterações
+echo                                                         [2] Reverter alteracoes
 SET /P choice=SELECT:
 
 IF /I "%choice%"=="1" Goto 1
